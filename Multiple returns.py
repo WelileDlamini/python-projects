@@ -1,4 +1,4 @@
-#functions with outputs
+ #functions with outputs
 def format_name(f_name, l_name):
     if f_name == "" or l_name == "":
         return "You didnt provide valid inputs"
