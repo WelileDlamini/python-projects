@@ -49,5 +49,67 @@ course = "Python for Beginners"
 print(len(course))
 course.upper()
 print(course.find('P'))
-print(course.replace('Beginners', 'Absolute Beginners')
+print(course.replace('Beginners', 'Absolute Beginners'))
+print("Python" in course)
+course.upper()
+course.lower()
+course.title()
+
+# Arithmetic operations
+x = 10
+x = x + 3
+x += 3
+print(x)
+
+# maths functions
+x = 2.9
+print(round(x))
+# module
+import math
+print(math.ceil(2.9))
+# if statements in python
+is_hot = False
+is_cold = True
+if is_hot:
+    print("Its a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("wear warm clothes")
+else:
+    print("Its a lovely day")
+
+# problem
+price = 1000000
+has_good_credit = True
+if has_good_credit:
+    down_payment = 0.1*price
+    print(down_payment)
+else:
+    down_payment = 0.2*price
+print(down_payment)
+
+# logical operators
+has_high_income = True
+has_good_credit = True
+if has_high_income and has_good_credit:
+    print("Eligible for a loan")
+
+# AND: both
+# OR: at least one
+# not: converts a boolean value
+temperature = 30
+if temperature > 30:
+    print("its a hot day")
+else:
+    print("its not a hot day")
+
+# problem
+name = len(input("What is your name? "))
+if name<3:
+    print("name must be at least 3 characters")
+elif name>50:
+    print("name can be a maximum of 50 characaters")
+else:
+    print("name looks good")
+
 
