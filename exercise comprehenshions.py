@@ -11,5 +11,5 @@ a = some_list.count(value)
 print(a)
 
 
-duplicates = set([value for value in some_list if some_list.count(value)>1])
+duplicates = list(set([value for value in some_list if some_list.count(value)>1])
 print(duplicates)
